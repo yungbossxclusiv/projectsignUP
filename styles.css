@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(image/vibrant-sunset-silhouettes-tree-rural-horizon-generated-by-ai_188544-45601.avif);
+    background-repeat: none;
+    background-size: cover;
+}
+/* .nav{
+    border: 2px solid white;
+} */
+
+.nav_wrapper{
+    /* border: 2px solid blue; */
+    width: 100%;
+    max-width: 1100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_wrapper h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: -4px;
+}
+
+.nav_items a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 4rem;
+    text-transform: capitalize;
+}
+
+.nav_wrapper button{
+    padding: .3rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* styling for main */
+
+/* main{
+    border: 2px solid white;
+} */
+
+form{
+    border: 1px solid #fff;
+    width: 320px;
+    height: 55vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.532);
+    margin: 3rem auto;
+    filter: blur(.5px);
+}
+
+form>span{
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    margin: .03rem;
+    float: right;
+    padding: .1rem .5rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.input_container{
+    border-bottom: 1px solid #000;
+    margin: 1rem auto;
+    width: 230px;
+    display: flex;
+}
+
+.input_container input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.input_container input::placeholder{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.form_label{
+    /* border: 2px solid; */
+    width: 230px;
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.btn{
+    /* border: 2px solid blue; */
+    width: 230px;
+    margin: 1rem auto;
+}
+.btn>button{
+    width: 100%;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    padding: .1rem 0;
+}
+
+form p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+}
+form p a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #000;
+}
